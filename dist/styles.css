@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+  background: #131518;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 412px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  padding: 32px;
+  border-radius: 30px;
+  max-width: 90%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.initial-view h1 {
+  margin: 30px 0 7px 0;
+}
+
+.text {
+  color: #969fad;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.initial-view .text {
+  margin-bottom: 24px;
+}
+
+.image-cover {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: #262e38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+li {
+  list-style: none;
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
+  color: #7c8798;
+  background: #262e38;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #fc7614;
+  color: #fff;
+}
+
+li.active {
+  background: #7c8798;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  color: #fff;
+  font-family: inherit;
+  background: #fc7614;
+  border: none;
+  border-radius: 22.5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.1s background-color ease-in;
+}
+
+button:hover {
+  background: #fff;
+  color: #fc7614;
+}
+
+.final-view {
+  text-align: center;
+  transition: all 1s ease-in;
+}
+
+.final-view img {
+  margin-top: 13px;
+}
+
+.result {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fc7614;
+  margin: 32px 0;
+  padding: 4px 20px;
+  background: #262e38;
+  display: inline-block;
+  border-radius: 22.5px;
+}
+
+.final-view h1 {
+  margin-bottom: 7px;
+}
+
+.final-view .text {
+  margin-bottom: 13px;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
