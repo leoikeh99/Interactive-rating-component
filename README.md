@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-DiCoCokcYC)
-- Live Site URL: (https://melodic-gnome-69ea48.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-DiCoCokcYC]
+- Live Site URL: [https://melodic-gnome-69ea48.netlify.app/]
 
 ## My process
 
