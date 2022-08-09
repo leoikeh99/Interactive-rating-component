@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://splendid-travesseiro-951c35.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-DiCoCokcYC]
+- Live Site URL: [https://melodic-gnome-69ea48.netlify.app/]
 
 ## My process
 
@@ -41,6 +41,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Javascript
 
 ## Author
 
