@@ -7,8 +7,7 @@ function selectRating(e) {
   }
 
   selectedRating = Number(e.target.innerText);
-
-  ratings[selectedRating - 1].classList.add("active");
+  e.target.classList.add("active");
 }
 
 function submitRating() {
