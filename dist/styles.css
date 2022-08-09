@@ -95,7 +95,7 @@ li.active {
 
 button {
   width: 100%;
-  height: 45px;
+  padding: 13px 0;
   text-align: center;
   color: #fff;
   font-family: inherit;
